@@ -1,10 +1,240 @@
-h1 {
-	text-align: center;
-	background-color: red;
-	}
+@media (min-width: 992px){
 	
-body {
-	position: center;
-	color: red;
-	}
+	h1 {
+		text-align: center;
+		}
+		
+	.div1 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 28%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div2 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 28%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div3 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 28%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.chicken {
+		background-color: #BDD5EA;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+
+	.beef {
+		background-color: #F78E69;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+		
+	.sushi {
+		background-color: #F4F482;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	h1 {
+		text-align: center;
+		}
+		
+	.div1 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 45%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div2 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 45%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div3 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 95%;
+		border: 3px solid black;
+		float: left;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.chicken {
+		background-color: #BDD5EA;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+
+	.beef {
+		background-color: #F78E69;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+		
+	.sushi {
+		background-color: #F4F482;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+	
+}
+
+@media (max-width: 767px){
+	
+	h1 {
+		text-align: center;
+		}
+		
+	.div1 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 95%;
+		border: 3px solid black;
+		float: center;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div2 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 95%;
+		border: 3px solid black;
+		float: center;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.div3 {
+		background-color: #F7F7FF;
+		position: relative;
+		width: 95%;
+		border: 3px solid black;
+		float: center;
+		margin: 10px;
+		height: fit-content;
+		padding-left: 20px;
+		padding-bottom: 1%;
+		}
+		
+	.chicken {
+		background-color: #BDD5EA;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+
+	.beef {
+		background-color: #F78E69;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+		
+	.sushi {
+		background-color: #F4F482;
+		position: relative;
+		width: 200px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		float: right;
+		text-align: center;
+		font-weight: 800;
+		clear: both;
+		}
+	
+}
 
